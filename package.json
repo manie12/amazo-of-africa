@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "graphql",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": " nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "graphql",
+    "server"
+  ],
+  "author": "jacob runo",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.21.1",
+    "bcryptjs": "^2.4.3",
+    "graphql": "^15.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.15"
+  }
+}
